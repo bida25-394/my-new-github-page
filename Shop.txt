@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Panda Threads - Shop</title>
+
+
+  <style>
+
+    /* ====== General Page Styles ====== */
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      background-color: #f4f4f4;
+
+    }
+
+
+    /* ====== Header & Navigation ====== */
+
+    header {
+
+      background-color: #222;
+
+      color: #fff;
+
+      padding: 15px;
+
+      text-align: center;
+
+    }
+
+
+    nav a {
+
+      color: #fff;
+
+      margin: 0 15px;
+
+      text-decoration: none;
+
+    }
+
+
+
+    /* ====== Shop Grid ====== */
+
+    .shop-container {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+      gap: 20px;
+
+      padding: 30px;
+
+    }
+
+
+
+    /* ====== Product Cards ====== */
+
+    .product-card {
+
+      background: #fff;
+
+      border: 1px solid #ddd;
+
+      border-radius: 8px;
+
+      text-align: center;
+
+      padding: 15px;
+
+      transition: transform 0.2s;
+
+    }
+
+
+    .product-card:hover {
+
+      transform: scale(1.05);
+
+    }
+
+
+    .product-card img {
+
+      max-width: 100%;
+
+      height: auto;
+
+      border-radius: 5px;
+
+    }
+
+
+    .product-card h3 {
+
+      margin: 10px 0;
+
+      font-size: 18px;
+
+    }
+
+
+    .product-card p {
+
+      color: #555;
+
+    }
+
+
+    .price {
+
+      font-weight: bold;
+
+      color: #e63946;
+
+    }
+
+
+
+    /* ====== Footer ====== */
+
+    footer {
+
+      background-color: #222;
+
+      color: #fff;
+
+      text-align: center;
+
+      padding: 10px;
+
+      margin-top: 20px;
+
+    }
+
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- ====== Header Section ====== -->
+
+  <header>
+
+    <h1>Panda Threads - Shop</h1>
+
+    <nav>
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">About</a>
+
+      <a href="contact.html">Contact</a>
+
+      <a href="shop.html">Shop</a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- ====== Products Grid Section ====== -->
+
+  <section class="shop-container">
+
+
+    <!-- Product 1 -->
+
+    <div class="product-card">
+
+      <img src="images/tshirt.jpg" alt="Classic Panda Threads T-Shirt" width="250" height="250">
+
+      <h3>Classic T-Shirt</h3>
+
+      <p>Soft cotton T-shirt with Panda Threads logo.</p>
+
+      <p class="price">$20</p>
+
+    </div>
+
+
+    <!-- Product 2 -->
+
+    <div class="product-card">
+
+      <img src="images/hoodie.jpg" alt="Stylish Panda Threads Hoodie" width="250" height="250">
+
+      <h3>Stylish Hoodie</h3>
+
+      <p>Warm hoodie perfect for casual wear.</p>
+
+      <p class="price">$35</p>
+
+    </div>
+
+
+    <!-- Product 3 -->
+
+    <div class="product-card">
+
+      <img src="images/jacket.jpg" alt="Denim Jacket with Panda Patch" width="250" height="250">
+
+      <h3>Denim Jacket</h3>
+
+      <p>Trendy denim jacket featuring a panda patch.</p>
+
+      <p class="price">$50</p>
+
+    </div>
+
+
+    <!-- Product 4 -->
+
+    <div class="product-card">
+
+      <img src="images/cap.jpg" alt="Panda Threads Baseball Cap" width="250" height="250">
+
+      <h3>Baseball Cap</h3>
+
+      <p>Adjustable cap with embroidered panda logo.</p>
+
+      <p class="price">$15</p>
+
+    </div>
+
+
+    <!-- Product 5 -->
+
+    <div class="product-card">
+
+      <img src="images/sweatpants.jpg" alt="Comfortable Panda Threads Sweatpants" width="250" height="250">
+
+      <h3>Sweatpants</h3>
+
+      <p>Relaxed-fit sweatpants for everyday comfort.</p>
+
+      <p class="price">$25</p>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- ====== Footer Section ====== -->
+
+  <footer>
+
+    <p>&copy; 2026 Panda Threads. All rights reserved.</p>
+
+  </footer>
+
+
+</body>
+
+</html>
